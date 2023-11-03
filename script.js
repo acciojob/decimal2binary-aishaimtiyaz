@@ -4,7 +4,6 @@ function decimalToBinary(N) {
 
 let N = 10; 
 let binary = decimalToBinary(N); 
-console.log( 
-	"The binary representation of given number is:- " + binary);
+console.log(binary);
 
 window.decimalToBinary = decimalToBinary;
